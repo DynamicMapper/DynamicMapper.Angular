@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "publish:packages": "lerna publish from-git --yes"
+    "publish:packages": "lerna publish from-git --yes --contents dist"
   },
   "private": true,
   "dependencies": {

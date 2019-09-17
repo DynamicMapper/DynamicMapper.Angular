@@ -20,10 +20,10 @@
     ],
     "paths": {
       "@dynamic-mapper/angular": [
-        "./dist/mapper-integration"
+        "./projects/mapper-integration/dist"
       ],
       "@dynamic-mapper/angular/*": [
-        "./dist/mapper-integration/*"
+        "./projects/mapper-integration/dist/*"
       ]
     }
   },
