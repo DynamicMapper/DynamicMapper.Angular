@@ -1,0 +1,23 @@
+{
+  "name": "@dynamic-mapper/angular",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DynamicMapper/DynamicMapper.Angular.git"
+  },
+  "keywords": [],
+  "author": "Jan Susicky <susicky.jan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DynamicMapper/DynamicMapper.Angular/issues"
+  },
+  "homepage": "https://github.com/DynamicMapper/DynamicMapper.Angular",
+  "peerDependencies": {
+    "@angular/common": "^8.2.5",
+    "@angular/core": "^8.2.5",
+    "@dynamic-mapper/mapper": "~1.0.0"
+  }
+}

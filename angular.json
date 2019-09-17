@@ -120,6 +120,41 @@
           }
         }
       }
+    },
+    "mapper-integration": {
+      "projectType": "library",
+      "root": "projects/mapper-integration",
+      "sourceRoot": "projects/mapper-integration/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/mapper-integration/tsconfig.lib.json",
+            "project": "projects/mapper-integration/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/mapper-integration/src/test.ts",
+            "tsConfig": "projects/mapper-integration/tsconfig.spec.json",
+            "karmaConfig": "projects/mapper-integration/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/mapper-integration/tsconfig.lib.json",
+              "projects/mapper-integration/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "mapper-angular"
 }

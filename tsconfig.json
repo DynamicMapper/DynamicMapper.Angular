@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@dynamic-mapper/angular": [
+        "./dist/mapper-integration"
+      ],
+      "@dynamic-mapper/angular/*": [
+        "./dist/mapper-integration/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
