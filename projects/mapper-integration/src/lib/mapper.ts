@@ -3,9 +3,7 @@ import { Mapper as BaseMapper, MapperConfiguration, Profile } from '@dynamic-map
 
 export const MAPPING_PROFILE = new InjectionToken<Profile>('MappingProfile');
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class Mapper extends BaseMapper {
   constructor(@Inject(MAPPING_PROFILE) profiles: Profile[]) {
     super(new MapperConfiguration(cfg => profiles.forEach(p => cfg.addProfile(p))));
