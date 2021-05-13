@@ -16,8 +16,8 @@
   },
   "homepage": "https://github.com/DynamicMapper/DynamicMapper.Angular",
   "peerDependencies": {
-    "@angular/common": "^8.2.5",
-    "@angular/core": "^8.2.5",
+    "@angular/common": "*",
+    "@angular/core": "*",
     "@dynamic-mapper/mapper": "~1.0.0"
   }
 }
