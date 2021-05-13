@@ -18,6 +18,6 @@
   "peerDependencies": {
     "@angular/common": "*",
     "@angular/core": "*",
-    "@dynamic-mapper/mapper": "~1.0.0"
+    "@dynamic-mapper/mapper": "^1.0.0"
   }
 }
