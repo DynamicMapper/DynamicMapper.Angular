@@ -156,5 +156,8 @@
         }
       }
     }},
-  "defaultProject": "mapper-angular"
+  "defaultProject": "mapper-angular",
+  "cli": {
+    "analytics": false
+  }
 }
